@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <h2 class="title"><%= @list.title %></h2><br />
+  <p><%= @list.date %></p><br />
+  <p><%= simple_format(@list.note) %></p>
+</div>
+
+<button type="button" class="btn btn-default btn-sm">  
+  <%= link_to "Back", lists_path %>
+</button>
