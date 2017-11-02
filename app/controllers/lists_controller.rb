@@ -37,9 +37,6 @@ class ListsController < ApplicationController
     end
   end
 
-
-
-
   private
 
   def set_list
